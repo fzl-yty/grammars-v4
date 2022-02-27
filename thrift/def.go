@@ -1,4 +1,4 @@
-package thriftpp
+package thrift
 
 import (
 	"encoding/json"
@@ -10,10 +10,6 @@ import (
 	"git.xiaojukeji.com/gulfstream/thriftpp/util"
 )
 
-// 关键字拦截
-var keyWords = []string{"client", "Client", "service", "Service", "struct", "Struct", "method", "Method", "getClient", "NewClient", "config"}
-
-// Type 所有类型都需要实现此接口
 type Type interface {
 	Desc() string
 }
