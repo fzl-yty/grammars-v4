@@ -1,4 +1,4 @@
-package thriftpp
+package thrift
 
 import (
 	"bytes"
